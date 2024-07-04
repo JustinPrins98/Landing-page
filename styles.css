@@ -1,0 +1,155 @@
+:root {
+    --dark-bg-color: #1F2937;
+    --hero-main-text-size: 48px;
+    --hero-main-text-color: #f9faf8;
+    --hero-main-text-weight: 800;
+    --hero-secundary-text-size: 18px;
+    --hero-secundary-texy-color: #e5e7eb;
+
+    --header-text-size: 24px;
+    --header-text-color: #f9faf8;
+
+    --button-color: #3882f6;
+    --info-header-text-size: 36px;
+    --info-header-text-color: #1f2937;
+    --info-header-text-weight: 800;
+
+    --quote-bg-color: #e5e7eb;
+    --quote-text-size: 36px;
+    --quote-text-color: #1f2937;
+    --quote-text-style: italic;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* ****** */
+/* Header */
+/* ****** */
+
+header {
+    background-color: var(--dark-bg-color);
+    padding-inline: 10em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    padding-block: 8em;
+    height: 15em;
+}
+
+header section div h2 {
+    font-size: var(--hero-main-text-size);
+    font-weight: var(--hero-main-text-weight);
+    color: var(--hero-main-text-color);
+    line-height: 1em;
+    margin: 0;
+}
+
+header section div p {
+    font-size: var(--hero-secundary-text-size);
+    color: var(--hero-secundary-texy-color);
+}
+
+header section div button {
+    background-color: var(--button-color);
+    padding-inline: 2em;
+    padding-block: 1em;
+    color: var(--hero-secundary-texy-color);
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.logo {
+    color: var(--header-text-color);
+    font-size: var(--header-text-size);
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    color: var(--header-text-color);
+    font-size: var(--hero-secundary-text-size);
+}
+
+
+
+header section div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1.5;
+}
+
+header section img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+}
+
+/* **** */
+/* Main */
+/* **** */
+
+main section {
+    padding-block: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h2 {
+    text-align: center;
+    color: var(--info-header-text-color);
+    font-size: var(--info-header-text-size);
+    font-weight: var(--info-header-text-weight);
+}
+
+
+main section figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 10em;
+
+}
+
+main section figure img {
+    border: solid 3px red;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+main section figure figcaption {
+    text-align: center;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
