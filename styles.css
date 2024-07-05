@@ -165,7 +165,7 @@ main section figure figcaption {
     padding-block: 8em;
 }
 
-article {
+.quote-section article {
     padding-inline: 20em;
     display: flex;
     flex-direction: column;
@@ -192,3 +192,57 @@ article {
 /* CTA section */
 /* CTA section */
 /* CTA section */
+
+.cta-section {
+    padding-block: 8em;
+}
+
+.cta-section article {
+    width: 50em;
+    background-color: var(--button-color);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 3em;
+    padding-inline: 4em;
+    border-radius: 10px;
+}
+
+.cta-section article div {
+    color: white;
+}
+
+.cta-section article div h3 {
+    margin: 0;
+}
+
+.cta-section article div p {
+    opacity: 70%;
+    font-weight: 100;
+    margin: 0;
+}
+
+.cta-section article button {
+    background-color: var(--button-color);
+    padding-inline: 3em;
+    height: 3em;
+    align-self: center;
+    color: var(--hero-secundary-texy-color);
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* footer */
+/* footer */
+/* footer */
+
+footer {
+    background-color: var(--dark-bg-color);
+    padding-block: 1em;
+}
+
+footer p {
+
+    color: var(--header-text-color);
+    text-align: center;
+}
