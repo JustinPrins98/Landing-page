@@ -113,7 +113,8 @@ header section img {
 /* **** */
 
 main section {
-    padding-block: 2em;
+    padding-top: 2em;
+    padding-bottom: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +139,7 @@ main section figure {
 }
 
 main section figure img {
-    border: solid 3px red;
+    border: solid 5px var(--button-color);
     border-radius: 10px;
     width: 100%;
     aspect-ratio: 1/1;
