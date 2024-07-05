@@ -112,6 +112,7 @@ header section img {
 /* Main */
 /* **** */
 
+
 main section {
     padding-top: 2em;
     padding-bottom: 4em;
@@ -154,3 +155,40 @@ main section figure figcaption {
     justify-content: center;
     align-items: center;
 }
+
+/* Quote section */
+/* Quote section */
+/* Quote section */
+
+.quote-section {
+    background-color: var(--quote-bg-color);
+    padding-block: 8em;
+}
+
+article {
+    padding-inline: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: var(--quote-text-size);
+    font-style: var(--quote-text-style);
+    font-weight: 200;
+    color: var(--quote-text-color);
+    margin: 0;
+}
+
+
+.quote-author {
+    align-self: end;
+    font-size: var(--hero-secundary-text-size);
+    font-weight: var(--info-header-text-weight);
+    margin: 0 2em 0 0;
+}
+
+/* CTA section */
+/* CTA section */
+/* CTA section */
